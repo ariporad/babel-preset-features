@@ -1,0 +1,37 @@
+{
+  "name": "babel-preset-features",
+  "version": "1.0.0",
+  "description": "A Babel preset with feature detection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariporad/babel-preset-features.git"
+  },
+  "keywords": [
+    "babel",
+    "preset",
+    "babel-preset",
+    "es6",
+    "es7",
+    "es2015",
+    "es2016"
+  ],
+  "author": "Ari Porad <ari@ariporad.com> (http://ariporad.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariporad/babel-preset-features/issues"
+  },
+  "homepage": "https://github.com/ariporad/babel-preset-features#readme",
+  "dependencies": {
+    "babel-features": "2.x || >=2.0.0-alpha"
+  },
+  "peerDependencies": {
+    "babel-core": "6.x"
+  },
+  "devDependencies": {
+    "babel-core": "6.x"
+  }
+}
