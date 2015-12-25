@@ -1,5 +1,7 @@
 var opts = require('babel-features').options();
 
-opts.plugins = opts.plugins.map(require);
+opts.plugins = opts.plugins.map(function (plugin) {
+  require('babel-plugin-' + plugin);
+});
 
 module.exports = opts;
