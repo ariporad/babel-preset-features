@@ -1,14 +1,14 @@
 {
   "name": "babel-preset-features",
-  "version": "2.0.0",
   "description": "A Babel preset with feature detection",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ariporad/babel-preset-features.git"
+    "url": "https://github.com/ariporad/babel-preset-features.git"
   },
   "keywords": [
     "babel",
@@ -32,6 +32,7 @@
     "babel-core": "6.x"
   },
   "devDependencies": {
-    "babel-core": "6.x"
+    "babel-core": "6.x",
+    "semantic-release": "^4.3.5"
   }
 }
