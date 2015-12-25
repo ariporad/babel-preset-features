@@ -5,6 +5,7 @@ wrapper. If you have an issue, it's probobly with them. (And all credit goes to 
 
 The major version of this package will always correspond to the major version of `babel-features` that it depends on.
 
+
 ## Usage
 
 Just pop this in your .babelrc:
