@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-features",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Babel preset with feature detection",
   "main": "index.js",
   "scripts": {
