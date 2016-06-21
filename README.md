@@ -17,3 +17,7 @@ Just pop this in your .babelrc:
 ```
 
 [babel-features]: https://github.com/hax/babel-features
+
+## Publish
+
+[semantic-release](https://www.npmjs.com/package/semantic-release)
